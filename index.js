@@ -1,3 +1,5 @@
+// The program inquires the user for inputs and then collaborates with the shapes.js file to utilize that data in creating the logo.
+
 import inquirer from 'inquirer';
 import fs from 'fs';
 import { Circle, Square, Triangle } from './lib/shapes.js';
